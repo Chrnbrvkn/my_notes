@@ -1,0 +1,452 @@
+body{
+    margin: 0;
+}
+
+main{
+    margin: 0 auto;
+    width: 1600px;
+    position: relative;
+}
+header {
+    /* display: flex;
+    justify-content: center;   
+    align-items: center; */
+    /* position: fixed; */
+    background-color: black;
+    height: 80px;
+    /* top: 0px; */
+    /* left: 0px; */
+    /* backdrop-filter: blur(2px); */
+
+}
+.center{
+    margin: 0 auto;
+    width: 1160px;
+}
+
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+    /* display: grid;
+    grid-template-columns: minmax(220px, 1fr) 82px; */
+    width: 1600px;
+    height: 80px;
+    /* justify-content: flex-start; */
+    /* grid-template-columns: 220px 82px 62px 43px 58px 32px 36px 58px 51px 78px 438px 105px 220px; */
+    /* grid-column-gap: 20px; */
+}
+a {
+    
+    text-decoration: none; 
+    color: white;
+    /* display: inline-block; */
+}
+
+
+.nav-link1{
+    position: absolute;
+    margin-left: 220px;
+    margin-top: 14px;
+    box-sizing: border-box; 
+    width: 82px;
+    height: 52px;
+    border: 1px solid #FFFFFF;
+    border-radius: 2px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: #FFFFFF;
+    display: flex;
+    padding: 4.75px 3.75px;
+    text-align: center;
+    
+   
+}
+.group1{
+    display:inline-flex;
+    padding-left: 365px;
+    padding-top: 29px;
+    width: 472px;
+    justify-content: space-around;
+    
+   
+}
+.nav-link2{
+    width: 58px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: white;
+   
+    /* grid-template-columns: 4; */
+}
+.nav-link3{
+ 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+.nav-link4{
+ 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+.nav-link5{
+ 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+.nav-link6{
+ 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+.nav-link7{
+    padding-right: 220px;
+    padding-top: 29px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+.container1{
+    position: relative;
+    height: 780px;
+    width: 100%;
+    
+    background-image: url("imgs/GiantPanda.png");
+    background-repeat: no-repeat;
+}
+.elips{
+    position: absolute;
+    top: 92px;
+    left: 807px;
+    height: 465px;
+    width: 465px;
+    background-image: url("imgs/Ellipse_6.png");
+    /* padding: 92px 328px 223px 807px; */
+    background-repeat: no-repeat;
+    
+/* верхнего, правого, нижнего и левого края */
+/* z-index: 1; */
+}
+
+.firstText{
+position: absolute;
+width: 500.31px;
+height: 400px;
+left: 57px;
+top: 71px;
+font-family: 'Roboto',sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 106.496px;
+line-height: 75%;
+/* or 80px */
+
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+    /* height: 400px;
+    width: 500px; */
+/* position: absolute; */
+/* padding: 92px 807px 328px 223px; */
+/* z-index: 1; */
+}
+.wath{
+position: relative;
+top: 626px;
+left: 983px;
+width: 298px;
+height: 54px;
+left: calc(50% - 298px/2 + 332px);
+top: 626px;
+background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+border-radius: 25px;
+font-family: 'Roboto',sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 140%;
+border: none; outline: none;
+/* or 22px */
+
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+.container2{
+display: flex;
+position: relative;
+width: 100%;
+height: 723px;
+
+}
+.flower1{
+   position: absolute;
+   right: -222px;
+   top: 12px;
+    background-image: url(imgs/flower_foto1.png);
+    background-repeat: no-repeat;
+    height: 605px;
+    width: 205px;
+/* left: 1400px; */
+/* top: 792px; */
+
+}
+.vietnam{
+width: 609px;
+height: 403px;
+/* left: 0px; */
+/* top: 0px; */
+margin-right: 87px;
+background: url(imgs/bamboo-cap.png);
+backdrop-filter: blur(2px);
+}
+
+.kapNtext{
+display: flex;
+justify-content: center;
+width: 100%;
+
+padding-top: 120px;
+}
+.text3{
+width: 465px;
+height: 403px;
+}
+.sometext1{
+    position: relative;
+
+
+/* h2 */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 120%;
+/* or 58px */
+
+
+color: #333B41;
+
+}
+.sometext2{
+    position: relative;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    /* or 21px */
+    
+    
+    color: #333B41;
+}
+.sometext3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    /* identical to box height, or 29px */
+    
+    
+    color: #333B41;
+    
+}
+.sometext4{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    
+    
+    color: #333B41;
+    
+}
+
+
+.conteiner3{
+    justify-content: center;
+    position: relative;
+    /* margin-top: 180px; */
+    height: 845px;
+    grid-auto-rows: minmax(auto, 100%);
+}
+.container3.animals{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-row: 406px; */
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+    align-content: start;
+}
+
+.picsAnimals{
+    border: 1px solid black;
+    width: 366px;
+    height: 466px;
+}
+.container_wrapper{
+    position: relative;
+    /* display: flex; */
+    
+
+}
+.arrows1{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 50%;
+    top: 66%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    
+}
+.leftAr{
+    width: 62px;
+    height: 62px;
+    margin-left: -80px;
+    border-radius: 50%;
+    background: #F9804B;
+    cursor: pointer;
+    border-radius: 50%;
+    border: none; outline: none;
+}
+.rightAr{
+    width: 62px;
+    height: 62px;
+    margin-right: -80px;
+    border-radius: 50%;
+    background: #F9804B;
+    cursor: pointer;
+    border-radius: 50%;
+    border: none; outline: none;
+}
+.chooseAnimal{
+    margin-left: 37%;
+    margin-top: 80px;
+    width: 298px;
+    height: 54px;
+    background: #FE9013;
+    border-radius: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    border: none; 
+    outline: none;    
+}
+
+.picsAnimals1{
+    /* display: grid; */
+
+    background-image: url(imgs/pandas.png);
+    background-repeat: no-repeat;
+    height: 426px;
+    width: 366px;
+    border: 1px solid #F9804B;
+    border-radius: 5px;
+    /* align-items: flex-end; */
+    /* padding-left: 16px; */
+    padding-bottom: 14px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.picsAnimals2{
+    height: 426px;
+    width: 366px;
+    background-image: url(imgs/eagles.png);
+    background-repeat: no-repeat;
+    border: 1px solid #F9804B;
+    border-radius: 5px;
+    /* align-items: flex-end; */
+    /* padding-left: 16px; */
+    padding-bottom: 14px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+ .picsAnimals3{
+    height: 426px;
+    width: 366px;
+    background-image: url(imgs/gorillas.png);
+    background-repeat: no-repeat;
+    border: 1px solid #F9804B;
+    border-radius: 5px;
+    /* align-items: flex-end; */
+    /* padding-left: 16px; */
+    padding-bottom: 14px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.picsAnimals4{
+    height: 426px;
+    width: 366px;
+    background-image: url(imgs/twotoed.png);
+    background-repeat: no-repeat;
+    border: 1px solid #F9804B;
+    border-radius: 5px;
+    /* align-items: flex-end; */
+    /* padding-left: 16px; */
+    padding-bottom: 14px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.picsAnimals5{
+    height: 426px;
+    width: 366px;
+    background-image: url(imgs/cheetahs.png);
+    background-repeat: no-repeat;
+    border: #F9804B;
+    border: 1px solid #F9804B;
+    border-radius: 5px;
+    /* align-items: flex-end; */
+    /* padding-left: 16px; */
+    padding-bottom: 14px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.picsAnimals6{
+    /* display: flex; */
+    height: 426px;
+    width: 366px;
+    background-image: url(imgs/penguins.png);
+    background-repeat: no-repeat;
+    border: 1px solid #F9804B;
+    border-radius: 5px;
+    /* align-items: flex-end; */
+    /* padding-left: 16px; */
+    padding-bottom: 14px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    /* box-shadow: 0 0 10px rgba(0,0,0,0.5); */
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    position: relative;
+   
+    /* padding-left: 16px; */
+}
+.a{
+    padding-left: 16px;
+}
+.b{
+    padding-left: 16px;
+}
